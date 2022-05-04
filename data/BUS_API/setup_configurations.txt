@@ -1,0 +1,18 @@
+0. visualstudio code
+
+1. anaconda
+   > conda create -n apis python==3.9
+
+
+2. mysql 
+
+mysql> use mysql;
+mysql> select host, user, password from user;
+mysql> grant all privileges on *.* to ‘root’@‘%’ identified by ‘db1234!’;
+
+3. pip
+
+> pip install pymysql
+
+>
+
